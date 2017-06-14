@@ -1,0 +1,360 @@
+a:link {
+  text-decoration: none;
+
+}
+
+/*BACKGROUND-COLORS*/
+.back-separador{
+  background-image: url(../img/portada1.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+.back-gray{
+	background-color: #ebebeb;
+}
+.back-gray-2{
+    background-color: #E6E6E6;
+}
+.back-orange{
+    background-color: rgb(255,101,0);
+}
+.bck-org-light {
+    background-color: #f6e5d3;
+}
+
+/*HR - COLORS*/
+
+.hr-org {
+  border: solid 1px rgb(255,101,0);
+  width: 100px;
+}
+
+.hr-orange {
+    border: solid 1px rgb(255,101,0);
+    width: 100px;
+}
+.hr-orange-full{
+    background-color: rgb(255,101,0);
+    height: 3px;
+
+}
+.hr-org-separador{
+    background-color: rgb(255,101,0);
+    width: 100px;
+    height: 5px;
+    border: none;
+}
+.hr-org-80{
+    background-color: rgb(255,101,0);
+    width: 200px;
+    height: 5px;
+    border: none;
+}
+
+.hr-gry1{
+    border: 1px #E6E6E6 solid;
+    /*margin-top:3%;
+    margin-bottom: 3%;*/
+
+}
+
+/*TEXTOS COLOR*/
+
+.txt-white{
+    color: #fff;
+    vertical-align: center;
+}
+.txt-organge{
+	color: rgb(255,101,0);
+}
+
+/*BUTTONS*/
+.btn-orange{
+    color: white;
+    font-size: 1.1em;
+    background-color: #fa6510;
+    border-radius: 20px;
+}
+.btn-orange:hover{
+    background-color: #f4a321;
+    color: #fff;
+}
+.btn-pink{
+    background-color: #b52373;
+    color: #fff;
+}
+.btn-none{
+	text-decoration: none;
+}
+
+/*PADDINGS*/
+.pt-04em{
+  padding-top: 0.6em;
+}
+.pt-1{
+  padding-top: 1%;
+}
+.pt-2{
+  padding-top: 2%;
+}
+.pt-4{
+  padding-top: 4%;
+}
+.pt-5{
+  padding-top: 5%;
+}
+.pt-6{
+  padding-top: 6%;
+}
+.mb-7em{
+  margin-bottom: 7em;
+}
+.pt-7em{
+  padding-top: 7em;
+}
+.pb-5{
+  padding-bottom: 5%;
+}
+.pb-2{
+  padding-bottom: 2%;
+}
+.pb-8{
+  padding-bottom: 8%;
+}
+.pt-12{
+  padding-top: 12%;
+}
+.pt-9{
+  padding-top: 9%;
+}
+.pt-50{
+	padding-top: 50%;
+}
+.pt-100{
+	padding-top: 100%;
+}
+.pl-0{
+	padding-left: 0px;
+}
+.pl-5{
+  padding-left: 5%;
+}
+.pr-0{
+	padding-right: 0px;
+}
+
+/*MARGIN*/
+.mt-2{
+  margin-top: 20px;
+}
+
+/*DISPLAY*/
+.inline-block{
+  display: inline-block;
+}
+.inline{
+  display: inline;
+}
+
+/*FONT SIZES*/
+.fntSiz0-9{
+  font-size: 0.9em;
+}
+.fntSiz1-1{
+  font-size: 1.1em;
+}
+.font-size2{
+  font-size: 2em;
+}
+.fntSiz1-5{
+  font-size: 1.5em;
+}
+.fntSiz1-8{
+  font-size: 1.8em;
+}
+.font-light{
+  font-weight: lighter;
+}
+
+/*EFECTO ZOOM*/
+
+.zoomImg-tumb {
+  position: relative;
+  overflow: hidden;
+}
+.zoomImg-tumb img {
+ 
+  -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.zoomImg-tumb:hover img {
+  -webkit-transform:scale(1.1);
+transform:scale(1.1);
+cursor: pointer;
+}
+
+.modal{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.border-dash{
+  border: dashed 2px rgb(255,101,0);
+}
+.widht-250{
+  width: 250px;
+}
+.widht-350{
+  width: 350px;
+}
+.widht-60{
+  width: 60%;
+}
+.widht-40{
+  width: 40%;
+}
+
+
+/*@media (min-width: 768px){
+  .modal-dialog {
+    width: 1000px;
+  }
+  
+}*/
+
+/*MEDIA QUERY*/
+@media only screen and (min-width:320px) and (max-width:767px){
+  h1{
+    font-size: 2.5em;
+    text-align: center;
+  }
+  #logo-experi{
+    width: 200px;
+  }
+  #call-action{
+    font-size: 1.5em;
+    padding-top: 7%;
+  }
+  #container-callAction{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #parrafo-premios{
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  #div-colaboradores{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+   #div-incentivos{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  #img-seguimiento{
+    width: 80%;
+    padding-top: 5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  #descarga-catalogo{
+    width: 60%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  #icon-tel{
+    padding-left: 10%;
+  }
+  
+
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+  
+  h1{
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  #logo-experi{
+    width: 230px;
+  }
+  #center{
+    text-align: center;
+    align-content: center;
+  }
+  #certificado-regalo{
+    width: 30%;
+  }
+  #container-callAction{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  h4{
+    font-size: 3em;
+  }
+  h3{
+    font-size: 2.5em;
+  }
+  .p-clientes{
+    font-size: 3em;
+  }
+  .p-fuerte-vinculo{
+    font-size: 2em;
+    padding-bottom: 4%;
+    text-align: center;
+  }
+  #div-premios{
+    padding-top: 0px;
+  }
+  #div-incentivos{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+   #img-seguimiento{
+    width: 70%;
+    padding-top: 5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #descarga-catalogo{
+    width: 45%;
+    padding-top: 5%;
+  }
+  #icon-tel{
+    text-align: right;
+    font-size: 1.5em;
+  }
+  #div-llamanos{
+    padding-top: 5%;
+  }
+  #div-llamanos>p{
+    font-size: 1.5em;
+  }
+  #icon-www{
+    width: 30%;
+  }
+   
+}
+
+
+@media only screen and (min-width:993px) and (max-width:1280px){
+  h1{
+    font-size: 3em;
+    text-align: center;
+  }
+  .media-font-2{
+    font-size: 4em;
+  }
+  
+
+}
